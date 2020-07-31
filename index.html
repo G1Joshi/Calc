@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,46 +8,47 @@
   <script src="src/main.js"></script>
   <title>Calculator</title>
 </head>
+
 <body>
-  <center>
-    <h1>Calculator</h1><hr />
-    <form name="fm">
-      <input class="inp" name="in" type="text" placeholder="G1">
-    </form>
-    <table class="table1">
-      <tr>
-        <td class="c" onclick="clr()">C</td>
-        <td class="t1" onclick="insert('**')">^</td>
-        <td class="t1" onclick="insert('%')">%</td>
-        <td class="t1" onclick="back()">D</td>
-      </tr>
-    </table>
-    <table class="table2">
-      <tr>
-        <td onclick="insert(7)">7</td>
-        <td onclick="insert(8)">8</td>
-        <td onclick="insert(9)">9</td>
-        <td onclick="insert('/')">/</td>
-      </tr>
-      <tr>
-        <td onclick="insert(4)">4</td>
-        <td onclick="insert(5)">5</td>
-        <td onclick="insert(6)">6</td>
-        <td onclick="insert('*')">*</td>
-      </tr>
-      <tr>
-        <td onclick="insert(1)">1</td>
-        <td onclick="insert(2)">2</td>
-        <td onclick="insert(3)">3</td>
-        <td onclick="insert('-')">-</td>
-      </tr>
-      <tr>
-        <td onclick="insert(0)">0</td>
-        <td onclick="insert('.')">.</td>
-        <td class="e" onclick="equal()">=</td>
-        <td class="p" onclick="insert('+')">+</td>
-      </tr>
-    </table>
-  </center>
+  <h1>Calculator</h1>
+  <hr>
+  <form name="fm">
+    <input class="inp" name="in" type="text" placeholder="G1">
+  </form>
+  <table class="table1">
+    <tr>
+      <td class="c" onclick="clr()">C</td>
+      <td class="t1" onclick="insert('**')">^</td>
+      <td class="t1" onclick="insert('%')">%</td>
+      <td class="t1" onclick="back()">D</td>
+    </tr>
+  </table>
+  <table class="table2">
+    <tr>
+      <td onclick="insert(7)">7</td>
+      <td onclick="insert(8)">8</td>
+      <td onclick="insert(9)">9</td>
+      <td onclick="insert('/')">/</td>
+    </tr>
+    <tr>
+      <td onclick="insert(4)">4</td>
+      <td onclick="insert(5)">5</td>
+      <td onclick="insert(6)">6</td>
+      <td onclick="insert('*')">*</td>
+    </tr>
+    <tr>
+      <td onclick="insert(1)">1</td>
+      <td onclick="insert(2)">2</td>
+      <td onclick="insert(3)">3</td>
+      <td onclick="insert('-')">-</td>
+    </tr>
+    <tr>
+      <td onclick="insert(0)">0</td>
+      <td onclick="insert('.')">.</td>
+      <td class="e" onclick="equal()">=</td>
+      <td class="p" onclick="insert('+')">+</td>
+    </tr>
+  </table>
 </body>
+
 </html>
