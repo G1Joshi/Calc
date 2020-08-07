@@ -17,6 +17,10 @@
         function clr() {
             document.fm.in.value = '';
         }
+        function back() {
+            var exp = document.fm.in.value;
+            document.fm.in.value = exp.substring(0, exp.length-1);
+        }
     </script>
     <style type="text/css">
         * {
@@ -109,7 +113,7 @@
                     <td class="c" onclick="clr()">C</td>
                     <td class="t1" onclick="insert('**')">^</td>
                     <td class="t1" onclick="insert('%')">%</td>
-                    <td class="t1" onclick="insert()">D</td>
+                    <td class="t1" onclick="back()">D</td>
                 </tr>
             </table>
             <table class="table2">
